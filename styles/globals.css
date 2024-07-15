@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles/globals.css */
+body {
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  button {
+    cursor: pointer;
+  }
